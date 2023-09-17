@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #292929;
+}
+header a{
+    font-size: large;
+    font-weight: bold;
+}
+header div.ricerca{
+    background-color: rgba(221, 221, 221, 0.651);
+}
+div.banner1 img{
+    width: 100%;
+}
+nav.header a{
+    color: #252525;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav.header ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+}
+
+nav.footer a{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: -50%;
+    font-size: 150%;
+    text-decoration: none;
+
+}
+
+nav.footer ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15%;
+
+
+}
+
+nav a:hover{
+    color: rgb(224, 0, 0);
+
+}
+
+nav.inizio ul{
+    list-style: none;
+}
+
+nav.inizio a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+nav.inizio a:hover{
+    color: rgb(224, 0, 0);
+
+}
+
+
+footer{
+    padding: 14%;
+    background-image: url(../immagini/footerimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 50%;
+}
+
+h1{
+    font-family: 'VALORANT', sans-serif;
+}
+
+div.inizio{
+    display: flex;
+    margin-left: 31%;
+    margin-top: 5%;
+}
+
+div.banner{
+    display: flex;
+}
+div.logohome{
+    margin-left: -30%;
+    margin-top: 5%;
+}
+
+div.titolomappe{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b9b9b988;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(100, 0, 0);
+}
+div.titolopresentazione{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b9b9b988;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(100, 0, 0);
+}
+div.agenti{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    margin-left: 0%;
+    gap: 5%;
+    text-align: center;
+}
+div.titoloagenti{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b9b9b988;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(100, 0, 0);
+}
+div.titoloarsenale{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b9b9b988;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(100, 0, 0);
+}
+div.chisiamo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b9b9b988;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(100, 0, 0);
+}
+
+div.ars{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+margin-left: 2%;
+gap: 10%;
+}
+
+
+
+.view{
+width: 100%;
+height: 100%;
+position: relative;
+}
+.view img{
+display: block;
+transform: scale(1);
+transition: all .2s linear;
+}
+.view img:hover {
+transform: scale(1.1);
+}
+div.titolorank{
+    margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: #b9b9b988;
+        text-align: center;
+        font-size: 150%;
+        color: rgb(100, 0, 0);
+}
+div.ranks{
+    text-align: center;
+    margin-top: 5%;
+}
+div.titolomodalità{
+    margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: #b9b9b988;
+        text-align: center;
+        font-size: 150%;
+        color: rgb(100, 0, 0);
+}
+
+div.mod{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 25px;
+    gap: 50px;
+    text-align: left;
+    padding: 2%;
+}
+
+div.mappe img{
+    max-width: 100%;
+
+}
+
+div.colonna{
+    width: 110%;
+}
+div.visuale{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    }
+    
+div.visuale img{
+    display: block;
+    transform: scale(1);
+    transition: all .2s linear;
+ }
+div.visuale img:hover {
+    transform: scale(1.1);
+ }
+
+ div.mappe{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-left: 0%;
+    gap: 4%;
+    text-align: center;
+    margin-left: 1%;
+}
+div.visuale:active {
+    transform: scale(2);
+    position: flex;
+    z-index: 1;
+    transition: all .3s linear;
+}
+
+div.cambio{
+    position: relative;
+}
+.immaginesopra{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.immaginesopra:hover{
+    opacity: 1;
+
+}
+div.ars h2{
+    color: rgb(150, 0, 0);
+}
+div.ars p{
+    color: #ffffff;
+}
+div.ars li{
+    color: #ffffff;
+}
+div.ars p{
+    color: #ffffff;
+}
+div.testorank p{
+    color: #ffffff;
+    margin: 3%;
+}
+div.mappe h1{
+    color: #ffffff;
+}
+div.agenti h1{
+    color: #ffffff;
+}
+div.testomodalità h2{
+    color: #ffffff;
+    margin: 3%;
+}
+div.testomodalità h1{
+    color: rgb(150, 0, 0);
+}
+div.testopresentazione {
+    color: #ffffff;
+    margin: 3%;
+}
+div.videopresentazione{
+    text-align: center;
+    margin-top: 7%;
+}
+div.gruppo1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin:5%;
+    margin-left: 15%;
+    list-style: none;
+    background-color: rgb(177, 177, 148);    
+}
+div.gruppo2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin:5%;
+    margin-left: 15%;
+    list-style: none;
+    background-color: rgb(177, 177, 148);    
+}
+div.gruppo3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin:5%;
+    margin-left: 15%;
+    list-style: none;
+    background-color: rgb(177, 177, 148);    
+}
+div.gruppo4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin:5%;
+    margin-left: 15%;
+    list-style: none;
+    background-color: rgb(177, 177, 148);    
+}
+div.gruppo5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin:5%;
+    margin-left: 15%;
+    list-style: none;
+    background-color: rgb(177, 177, 148);    
+}
+div.bannerhome h2{
+    margin-top: 20%;
+    font-size: 500%;
+    color: rgb(150, 0, 0);
+}
+div.scopri h2{
+    color: #d7d4d4;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 300%;
+ }
+ div.testochisiamo{
+    color: #ffffff;
+    margin-left: 2%
+ }
+
+div.mail1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+
+}
+div.mail2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+
+}
+div.mail3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+}
+
+@media screen and (max-width: 768px){
+    div.ricerca{
+        display: flex;
+    }
+    nav.header ul{
+        list-style: circle;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    div.banner1 img{
+        display: block;
+        width: 100%;
+    }
+    div.logohome img{
+        width: 100%;
+        height: 60%;
+    }
+    div.scopri h2{
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 200%;
+     }
+     nav.inizio a{
+        font-size: medium;
+     }
+     div.inizio {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    div.inizio img{
+        width: 10%;
+        height: 10%;
+    }
+    div.gruppo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    div.gruppo1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin:5%;
+        margin-left: 1%;
+
+    }
+    div.gruppo1 h2{
+        font-size: medium;
+        margin-top: 35%;;
+        margin-left: 40%;
+    }
+    div.gruppo2 img{
+        width: 100%;
+        height: 100%;
+    }
+    div.gruppo2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin:5%;
+        margin-left: 1%;
+
+    }
+    div.gruppo2 h2{
+        font-size: medium;
+        margin-top: 35%;;
+        margin-left: 40%;
+    }
+    div.gruppo3 img{
+        width: 100%;
+        height: 100%;
+    }
+    div.gruppo3{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin:5%;
+        margin-left: 1%;
+
+    }
+    div.gruppo3 h2{
+        font-size: medium;
+        margin-top: 35%;;
+        margin-left: 40%;
+    }
+    div.gruppo4 img{
+        width: 100%;
+        height: 100%;
+    }
+    div.gruppo4{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin:5%;
+        margin-left: 1%;
+
+    }
+    div.gruppo4 h2{
+        font-size: medium;
+        margin-top: 35%;;
+        margin-left: 40%;
+    }
+    div.gruppo5 img{
+        width: 100%;
+        height: 100%;
+    }
+    div.gruppo5{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin:5%;
+        margin-left: 1%;
+
+    }
+    div.gruppo5 h2{
+        font-size: medium;
+        margin-top: 25%;;
+        margin-left: 40%;
+    }
+    nav.footer a{
+        margin-left: -100%;
+        font-size: 100%;
+    
+    }
+ 
+    nav.footer ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 10%;
+        margin-left: 7%;
+    
+    }
+    div.titolomappe{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 55%;
+        text-align: left;
+        font-size: 100%;
+    }
+    div.mappe img{
+        width: 90%;
+        height: auto;
+    }
+    div.mappe{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin-left: 0%;
+        gap: 2%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    div.titoloagenti{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 55%;
+        text-align: left;
+        font-size: 100%;
+    }
+    div.agenti img{
+        width: 90%;
+        height: 100%;
+    }
+    div.agenti{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin-left: 0%;
+        gap: 2%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    div.titoloarsenale{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 55%;
+        text-align: left;
+        font-size: 100%;
+    }
+    div.arsenale img{
+        width: 90%;
+        height: 100%;
+    }
+    div.ars{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        margin-left: 1%;
+        padding-top: 15%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    div.titolorank{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 55%;
+        text-align: left;
+        font-size: 100%;
+    }
+    div.ranks img{
+        width: 90%;
+        height: 100%;
+    }
+    div.chisiamo{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 55%;
+        text-align: left;
+        font-size: 100%;
+    }
+
+
+}
